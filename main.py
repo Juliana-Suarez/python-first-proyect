@@ -12,3 +12,6 @@ word_1 = "Buenos "
 word_2 = "Dias"
 word_union= word_1 + word_2
 print(word_union)
+
+#buenos dias
+
