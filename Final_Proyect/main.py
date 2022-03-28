@@ -41,7 +41,10 @@ verificacion_basica(password,usuario)
 real_password=file_user.password_1()
 real_user=file_user.user_1()
 
-while usuario != real_user or password != real_password :
+real_password2 = file_user.password_2()
+real_user2 = file_user.user_2()
+
+while(usuario != real_user2 and password != real_password) or (usuario != real_user and password != real_password2)  :
     print("El e-mail o contraseña es incorrecta\nVuelva a intentarlo \n")
     usuario = correo()
     password = contrasena()
